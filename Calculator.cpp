@@ -1,3 +1,6 @@
+// Designed and Developed by Muhammad Umair Yaqub
+// P A K I S T A N
+
 #include <iostream>
 
 double Number_1, Number_2 ;
@@ -52,5 +55,5 @@ int main (){
         break ;
     }
     // switch statement ends
-    
+
 }
