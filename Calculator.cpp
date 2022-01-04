@@ -14,31 +14,31 @@ int main (){
     std :: cout << "You'll need to enter the 2nd number :: " ;
     std :: cin >> Number_2 ;
 
-    switch (Operator){
-        
-    case '/':
+    switch ( Operator ){
+
+    case '/' :
         
         std :: cout << "Calculations :: " << Number_1 / Number_2 ;
-        break;
+        break ;
 
-    case '*':
+    case '*' :
         
         std :: cout << "Calculations :: " << Number_1 * Number_2 ;
-        break;
+        break ;
 
-    case '+':
+    case '+' :
         
         std :: cout << "Calculations :: " << Number_1 + Number_2 ;
-        break;
+        break ;
 
-    case '-':
+    case '-' :
         
         std :: cout << "Calculations :: " << Number_1 - Number_2 ;
-        break;
+        break ;
     
-    default:
+    default :
     
         std :: cout << "Error!\nIncorrect Input." ;
-        break;
+        break ;
     }
 }
